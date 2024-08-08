@@ -1,0 +1,13 @@
+button {
+  height: 50px;
+  width: 190px;
+  background: rgba(24, 20, 243, 1);
+  border-radius: 15px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border:none;
+}
