@@ -1,5 +1,72 @@
-*{
-    padding:0px;
-    margin:0px;
-    box-sizing:border-box;
+.app-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.app-main {
+  margin: 100px 0 0 250px;
+  background-color: #e6eff5;
+  width: calc(100% - 250px - 64px);
+  height: calc(100vh - 100px - 64px);
+  padding: 32px;
+}
+
+.app-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-input-box {
+  display: flex;
+}
+
+.form-input {
+  border: 2px #dfeaf2 solid;
+  border-radius: 16px;
+  padding: 16px;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.column {
+  flex: 1;
+}
+
+.settings {
+  display: flex;
+  gap: 32px;
+}
+
+.settings-content {
+  flex: 1;
+}
+
+.settings-image img {
+  border-radius: 50%;
+}
+
+.image-column {
+  width: 200px;
 }
