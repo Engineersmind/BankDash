@@ -1,0 +1,33 @@
+.password label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgba(35, 35, 35, 1);
+}
+.password input {
+  height: 23px;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid rgba(223, 234, 242, 1);
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-left: 0px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+}

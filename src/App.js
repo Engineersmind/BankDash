@@ -1,6 +1,6 @@
 import "./App.css";
 
-import ResetPassword from "./components/ResetPassword";
+import Security from "./pages/Security";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <header className="app-header">header</header>
 
       <main className="app-main">
-        <ResetPassword/>
+        <Security />
       </main>
     </>
   );
