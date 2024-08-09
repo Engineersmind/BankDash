@@ -1,8 +1,6 @@
-import "./Toggle.css"
 import ToggleButton from "./ToggleButton";
 import { useState } from "react";
 export default function Toggle() {
-
   const [recieveCurrency, setRecieveCurrency] = useState(false);
   const [merchantOrder, setMerchantOrder] = useState(false);
   const [reccomendation, setReccomendation] = useState(false);
@@ -14,7 +12,7 @@ export default function Toggle() {
     setMerchantOrder(!merchantOrder);
   }
   function handleReccomendation() {
-    console.log("click",reccomendation);
+    console.log("click", reccomendation);
     setReccomendation(!reccomendation);
   }
 
@@ -23,20 +21,20 @@ export default function Toggle() {
       id: "1",
       content: "I send or recieve digital currency",
       onToggle: handleRecieveCurrency,
-      onCheck: recieveCurrency 
+      onCheck: recieveCurrency,
     },
     {
       id: "2",
       content: "I recieve merchant order",
       onToggle: handleMerchantOrder,
-      onCheck:  merchantOrder 
+      onCheck: merchantOrder,
     },
     {
       id: "3",
       content: "There are reccomendation for my account",
       onToggle: handleReccomendation,
-      onCheck:  reccomendation 
-    }
+      onCheck: reccomendation,
+    },
   ];
 
   return (

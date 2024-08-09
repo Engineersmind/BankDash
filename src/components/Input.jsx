@@ -1,6 +1,5 @@
-import "./Input.css"
+import "./Input.css";
 export default function Input(props) {
-
   const { name, id, type, placeholder, label, value, onChange } = props;
 
   return (

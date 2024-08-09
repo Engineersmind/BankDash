@@ -14,7 +14,7 @@ export default function Preferences() {
   }
 
   return (
-    <>
+    <div className="preferences-card">
       <div className="input-wrapper">
         <Input
           name="currency"
@@ -42,6 +42,6 @@ export default function Preferences() {
         <Toggle />
       </div>
       <button>Save</button>
-    </>
+    </div>
   );
 }

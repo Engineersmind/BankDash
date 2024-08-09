@@ -1,6 +1,5 @@
 import "./App.css";
-
-import { Settings } from "./pages/Settings";
+import Preferences from "./pages/Preferences";
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <header className="app-header">header</header>
 
       <main className="app-main">
-        <Settings />
+        <Preferences />
       </main>
     </>
   );

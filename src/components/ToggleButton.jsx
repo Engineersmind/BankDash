@@ -1,6 +1,5 @@
-import "./ToggleButton.css"
+import "./ToggleButton.css";
 export default function ToggleButton(props) {
-
   console.log(props);
   props.Attributes.forEach((attribute) => {
     console.log(attribute.onCheck);
